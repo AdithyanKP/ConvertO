@@ -1,0 +1,18 @@
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(232, 236, 236);
+    padding: 20px;
+    
+
+}
+.title{
+    padding: 10px;
+  font-size: 28px;
+  font-family:'Gudea', sans-serif ;
+  color: #140c0c;
+  font-weight:bold,
+}
