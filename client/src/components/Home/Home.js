@@ -12,9 +12,14 @@ const Home = () => {
           method="post"
           enctype="multipart/form-data"
         >
-          <input type="file" name="upfile" value="" />
+          <input
+            type="file"
+            name="upfile"
+            value=""
+            style={{ color: "rgb(134, 129, 129)" }}
+          />
           <div style={{ display: "flex", flexDirection: "row" }}>
-            <Button variant="outlined" size="small">
+            <Button variant="outlined" size="small" color="secondary">
               Submit
             </Button>
           </div>
