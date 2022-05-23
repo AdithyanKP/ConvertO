@@ -1,5 +1,11 @@
+import Home from "./components/Home/Home";
+
 function App() {
-  return <h1>Word to pdf converter</h1>;
+  return (
+    <>
+      <Home />
+    </>
+  );
 }
 
 export default App;
