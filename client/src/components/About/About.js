@@ -5,9 +5,11 @@ const About = () => {
     <>
       <div className={styles.container}>
         <div className={styles.content}>
-          <h1 className={styles.title}>Hai Iam Adithyan</h1>
+          <h1 className={styles.title} style={{ fontFamily: "cursive" }}>
+            Hai Iam Adithyan
+          </h1>
           <p style={{ fontSize: 20, fontFamily: "cursive", color: "white" }}>
-            Currently work as a Software Engineer at Neoito.
+            Work as a Software Engineer at Neoito.
           </p>
         </div>
       </div>
